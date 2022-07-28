@@ -1,6 +1,8 @@
+# Universidad Javeriana
 # Gestión de Datos
 # Tutorial
 
-Tutorail Git y GitHub
+Tutorial Git y GitHub
 
 Carolina Rubiano
+Ing Sistemas
