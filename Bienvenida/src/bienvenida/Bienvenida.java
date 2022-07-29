@@ -1,9 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package bienvenida;
+import java.util.Scanner;
 
 /**
  *
@@ -17,7 +13,10 @@ public class Bienvenida {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Bienvenido al Tutorial de Git y GitHub ");
-        
+        System.out.println("Escribe nombre del estudiante:");
+        Scanner consola = new Scanner(System.in);
+        Student student1 = new Student(consola.nextLine());
+        System.out.println("Datos del estudiante "+ student1.toString());
     }
     
 }
